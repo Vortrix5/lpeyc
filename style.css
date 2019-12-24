@@ -688,8 +688,12 @@ ul.dropdown li a:after {
 /*3.2 Header ArtWork Animation */
 .header-animation-area {
 	position: relative;
-	margin-left: -50px !important;
 }
+@media only screen and (min-width: 700px) {
+	.header-animation-area {
+		margin-left: -50px !important;
+	}
+  }
 
 .header-1-artwork {
 	position: absolute;
@@ -2961,9 +2965,13 @@ footer p {
 }
 
 .about-team img {
-	width: 70%
+	width: 100%
 }
-
+@media only screen and (min-width: 700px) {
+	.about-team img {
+		width: 70%
+	}
+  }
 /*19.5 About Counter*/
 .about-counter-area {
 	background-color: #F7FFF7;
